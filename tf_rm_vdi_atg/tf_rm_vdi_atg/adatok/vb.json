@@ -1,0 +1,13 @@
+{
+	"csoportok": [
+		{"nev" : "A", "csapat1" : "Brazília", "csapat2" : "Mexikó", "csapat3" : "Kamerun", "csapat4" : "Horváto."},
+		{"nev" : "B", "csapat1" : "Hollandia", "csapat2" : "Chile", "csapat3" : "Ausztrália", "csapat4" : "Spanyolo."},
+		{"nev" : "C", "csapat1" : "Kolumbia", "csapat2" : "Elefántcs.", "csapat3" : "Japán", "csapat4" : "Görögo."},
+		{"nev" : "D", "csapat1" : "Costa Rica", "csapat2" : "Olaszo.", "csapat3" : "Anglia", "csapat4" : "Uruguay"},
+		{"nev" : "E", "csapat1" : "Franciao.", "csapat2" : "Svájc", "csapat3" : "Ecuador", "csapat4" : "Honduras"},
+		{"nev" : "F", "csapat1" : "Argentina", "csapat2" : "Irán", "csapat3" : "Nigéria", "csapat4" : "Bosznia-H."},
+		{"nev" : "G", "csapat1" : "Németo.", "csapat2" : "USA", "csapat3" : "Ghána", "csapat4" : "Portugália"},
+		{"nev" : "H", "csapat1" : "Belgium", "csapat2" : "Dél-Korea", "csapat3" : "Oroszo.", "csapat4" : "Algéria"}
+	],
+	"rendezo" : "Brazília"
+}

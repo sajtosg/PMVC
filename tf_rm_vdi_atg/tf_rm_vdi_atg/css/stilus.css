@@ -1,0 +1,178 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#universe {
+	width:1200px;
+	min-height: 800px;
+	margin: 0px auto;
+	background-image: url("../kepek/PMVC2.jpg");
+	overflow: auto;
+	font-family: 'Ubuntu', latin;
+}
+
+#paralleluniverse{
+	width:1200px;
+	min-height: 800px;
+	margin: 0px auto;
+	background-image: url("../kepek/PMVC22.jpg");
+	overflow: auto;
+	font-family: 'Ubuntu', latin;
+}
+
+#fejlec {
+	height: 150px;
+	background-image: url('../kepek/fejlec.jpg');
+}
+
+#groupStage {
+	width:200px;
+	background-color: rgba(78, 0, 0, .2);
+}
+
+#groupSemiFinals {
+	width:200px;
+	background-color: rgba(200, 100, 0, .2);
+}
+
+#groupFinals {
+	width:200px;
+	background-color: rgba(230, 200, 22, .2);
+}
+
+#conferenceFinals {
+	width:200px;
+	background-color: rgba(240, 200, 44, .2);
+}
+
+#Final {
+	width:200px;
+	background-color: rgba(255, 220, 66, .2);
+}
+
+#winner {
+	width:165px;
+	background-color: rgba(222, 222, 222, .9);
+	font-size: 9pt;
+}
+
+#fejlec {
+	height: 150px;
+	background-image: url('../kepek/fejlec.jpg');
+}
+
+#_groupStage {
+	width:200px;
+	background-color: rgba(78, 0, 0, .2);
+}
+
+#_groupSemiFinals {
+	width:200px;
+	background-color: rgba(200, 100, 0, .2);
+}
+
+#_groupFinals {
+	width:200px;
+	background-color: rgba(230, 200, 22, .2);
+}
+
+#_conferenceFinals {
+	width:200px;
+	background-color: rgba(240, 200, 44, .2);
+}
+
+#_Final {
+	width:200px;
+	background-color: rgba(255, 220, 66, .2);
+}
+
+#_winner {
+	width:200px;
+	background-color: #aaff88;
+	z-index: -1;
+}
+
+.csoport {
+	width: 180px;
+	height: 40px;
+	margin: 4px;
+	padding: 4px;
+	border: 1px solid #000000;
+	overflow: hidden;
+	font-size: 10pt;
+	position: static;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.kozepre {
+	display: table-cell;
+	vertical-align:middle;
+}
+
+.csoport .cim {
+	background-color: rgba(0, 0, 0, .2);
+	color: #333333;
+	text-align: center;
+	line-height: 20px;
+}
+
+.csoport .todaycim {
+	background-color: rgba(55,255,55,.8);
+	color: #ffffff;
+	text-align: center;
+	line-height: 20px;
+}
+
+.csoport .aktivcim {
+	background-color: rgba(55,55,55,.8);
+	color: #ffffff;
+	text-align: center;
+	line-height: 20px;
+}
+
+.up {
+	z-index: 100;
+}
+
+.right {
+	text-align: right;
+	width: 35px;
+}
+
+.ovrflv {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+.rownowrap {
+	padding: 4px 0px 0px 0px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.expanded {
+}
+
+.points {
+	display: table-cell;
+	vertical-align: middle;
+	height: 30px;
+}
+
+.nobackground {
+background-color: rgba(55,55,55,.1);
+}
+
+img {
+    vertical-align: middle;
+}

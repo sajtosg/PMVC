@@ -1,0 +1,101 @@
+﻿{
+	"groupStage": [
+		{"GroupName" : "Hun single 1. group", "Opened" : "1" , "VoteDate" : "2014.11.25.", "VideoClips" : [
+								{"Clip" : "b2WhIoI27-A" , "Title" : "Sub Bass Monster - Ne sÃ­rj anyÃ¡m", "groupPoint" : 9} ,
+								{"Clip" : "6ceUHn1cZuU" , "Title" : "Emil Rulez - A lany, aki csak derekig latszik", "groupPoint" : 4} ,
+								{"Clip" : "b82MGSuD6bw" , "Title" : "LajkÃ³ FÃ©lix - CsÃ¡rdas", "groupPoint" : 0} ,
+								{"Clip" : "JELrLROCsSs" , "Title" : "Boggie - Un an a Paris", "groupPoint" : 8}]},
+		{"GroupName" : "Hun single 2. group", "Opened" : "1" , "VoteDate" : "2014.11.26.", "VideoClips" : [
+								{"Clip" : "ktF2Icz5Mb8" , "Title" : "Bogi - We All (Lotfi Begi remix)", "groupPoint" : 6} ,
+								{"Clip" : "OKzPeFmS8eg" , "Title" : "Kelemen KabÃ¡tban - Maradjatok Gyerekek", "groupPoint" : 10} ,
+								{"Clip" : "v1zmgjwmIy4" , "Title" : "Johnny Gold - A mellizmon tul", "groupPoint" : 3} ,
+								{"Clip" : "xuAdazB3oFs" , "Title" : "Leander Rising - Bad Romance by Lady Gaga", "groupPoint" : 2}]},
+		{"GroupName" : "Hun band 1. group", "Opened" : "1" , "VoteDate" : "2014.11.27.", "VideoClips" : [
+								{"Clip" : "27UK00PQarA" , "Title" : "Children of Distance - NÃ©lkÃ¼led annyira mÃ¡s", "groupPoint" : 8} ,
+								{"Clip" : "acObg_szX7s" , "Title" : "Budapest Nufolk Revolution - Indul az Ã©let", "groupPoint" : 8} ,
+								{"Clip" : "fNhkkbCSi5E" , "Title" : "Ivan & The Parazol - Don't Wanna Die", "groupPoint" : 4} ,
+								{"Clip" : "qOiOOkG2t8s" , "Title" : "64-es KÃ³rterem - SzÅ‘rmÃ³k", "groupPoint" : 4}]},
+		{"GroupName" : "Hun band 2. group", "Opened" : "1" , "VoteDate" : "2014.11.28.", "VideoClips" : [
+								{"Clip" : "r-vmZ2YShWE" , "Title" : "Blind Myself feat. Wolfie - Testem a vÃ¡szon", "groupPoint" : 1} ,
+								{"Clip" : "S0aXzh-r2y8" , "Title" : "Halott PÃ©nz - Hello lÃ¡nyok", "groupPoint" : 8} ,
+								{"Clip" : "UrGS9EARHRc" , "Title" : "Punnany Massif - Ã‰lvezd", "groupPoint" : 8} ,
+								{"Clip" : "zSBRskrTbug" , "Title" : "Akusztik Mrs. Columbo - VÃ¡rosember (30Y)", "groupPoint" : 4}]},
+		{"GroupName" : "Alien single 1. group", "Opened" : "1" , "VoteDate" : "2014.11.29.", "VideoClips" : [
+								{"Clip" : "0KSOMA3QBU0" , "Title" : "Katy Perry - Dark Horse", "groupPoint" : 9} ,
+								{"Clip" : "5HFO0tRnWlM" , "Title" : "Viikate - Tervaskanto", "groupPoint" : 6} ,
+								{"Clip" : "Dwimc4cvUmQ" , "Title" : "Down On Me (Keenan Cahill and 50 Cent)", "groupPoint" : 2} ,
+								{"Clip" : "EDQgU1CPpis" , "Title" : "Daniel Waples - Solo Hang Drum in a London Tunnel", "groupPoint" : 7}]},
+		{"GroupName" : "Alien single 2. group", "Opened" : "1" , "VoteDate" : "2014.12.01.", "VideoClips" : [
+								{"Clip" : "gCYcHz2k5x0" , "Title" : "Martin Garrix - Animals", "groupPoint" : 7} ,
+								{"Clip" : "HSBGfSm1x1I" , "Title" : "Dub FX - Rude Boy", "groupPoint" : 5} ,
+								{"Clip" : "xhrBDcQq2DM" , "Title" : "Haddaway - What Is Love", "groupPoint" : 1} ,
+								{"Clip" : "zwG97ah0mEU" , "Title" : "THE ALGORITHM - Trojans", "groupPoint" : 7}]},
+		{"GroupName" : "Alien band 1. group", "Opened" : "1" , "VoteDate" : "2014.12.02.", "VideoClips" : [
+								{"Clip" : "req-oDf2ZRc" , "Title" : "ACCEPT - Teutonic Terror", "groupPoint" : 7} ,
+								{"Clip" : "5P0_v__IOrE" , "Title" : "La Bouche- Be My Lover", "groupPoint" : 3} ,
+								{"Clip" : "5tDjYuqJRJQ" , "Title" : "Come With Me Now - Kongos", "groupPoint" : 7} ,
+								{"Clip" : "BgAlQuqzl8o" , "Title" : "Cello Wars (Star Wars Parody) Lightsaber Duel - ThePianoGuys", "groupPoint" : 7}]},
+		{"GroupName" : "Alien band 2. group", "Opened" : "1" , "VoteDate" : "2014.12.03.", "VideoClips" : [
+								{"Clip" : "JrlfFTS9kGU" , "Title" : "Lilly Wood & The Prick - Prayer in C", "groupPoint" : 9} ,
+								{"Clip" : "MoE6SeSm268" , "Title" : "Faith no More - Easy", "groupPoint" : 8} ,
+								{"Clip" : "OOevVQwQ-LM" , "Title" : "Alesso vs OneRepublic - If I Lose Myself", "groupPoint" : 4} ,
+								{"Clip" : "-xFnDmxf1Es" , "Title" : "Darkest hour -The World Engulfed in Flames 2011", "groupPoint" : 3}]}
+	],
+	"groupSemiFinals": [
+		{"GroupName" : "Hun single semifinal 1.", "Opened" : "1" , "VoteDate" : "2014.12.04.", "VideoClips" : [
+								{"Clip" : "b2WhIoI27-A" , "Title" : "Sub Bass Monster - Ne sÃ­rj anyÃ¡m", "groupPoint" : 4} ,
+								{"Clip" : "ktF2Icz5Mb8" , "Title" : "Bogi - We All (Lotfi Begi remix)", "groupPoint" : 4}]},
+		{"GroupName" : "Hun single semifinal 2.", "Opened" : "1" , "VoteDate" : "2014.12.04.", "VideoClips" : [
+								{"Clip" : "OKzPeFmS8eg" , "Title" : "Kelemen KabÃ¡tban - Maradjatok Gyerekek", "groupPoint" : 4} ,
+								{"Clip" : "JELrLROCsSs" , "Title" : "Boggie - Un an a Paris", "groupPoint" : 4}]},
+		{"GroupName" : "Hun band semifinal 1.", "Opened" : "1" , "VoteDate" : "2014.12.05.", "VideoClips" : [
+								{"Clip" : "acObg_szX7s" , "Title" : "Budapest Nufolk Revolution - Indul az Ã©let", "groupPoint" : 2} ,
+								{"Clip" : "UrGS9EARHRc" , "Title" : "Punnany Massif - Ã‰lvezd", "groupPoint" : 5}]},
+		{"GroupName" : "Hun band semifinal 2.", "Opened" : "1" , "VoteDate" : "2014.12.05.", "VideoClips" : [
+								{"Clip" : "S0aXzh-r2y8" , "Title" : "Halott PÃ©nz - Hello lÃ¡nyok", "groupPoint" : 5} ,
+								{"Clip" : "27UK00PQarA" , "Title" : "Children of Distance - NÃ©lkÃ¼led annyira mÃ¡s", "groupPoint" : 2}]},
+		{"GroupName" : "Alien single semifinal 1.", "Opened" : "1" , "VoteDate" : "2014.12.08.", "VideoClips" : [
+								{"Clip" : "0KSOMA3QBU0" , "Title" : "Katy Perry - Dark Horse", "groupPoint" : 4} ,
+								{"Clip" : "gCYcHz2k5x0" , "Title" : "Martin Garrix - Animals", "groupPoint" : 4}]},
+		{"GroupName" : "Alien single semifinal 2.", "Opened" : "1" , "VoteDate" : "2014.12.08.", "VideoClips" : [
+								{"Clip" : "zwG97ah0mEU" , "Title" : "THE ALGORITHM - Trojans", "groupPoint" : 3} ,
+								{"Clip" : "EDQgU1CPpis" , "Title" : "Daniel Waples - Solo Hang Drum in a London Tunnel", "groupPoint" : 5}]},
+		{"GroupName" : "Alien band semifinal 1.", "Opened" : "1" , "VoteDate" : "2014.12.09.", "VideoClips" : [
+								{"Clip" : "req-oDf2ZRc" , "Title" : "ACCEPT - Teutonic Terror", "groupPoint" : 1} ,
+								{"Clip" : "MoE6SeSm268" , "Title" : "Faith no More - Easy", "groupPoint" : 7}]},
+		{"GroupName" : "Alien band semifinal 2.", "Opened" : "1" , "VoteDate" : "2014.12.09.", "VideoClips" : [
+								{"Clip" : "JrlfFTS9kGU" , "Title" : "Lilly Wood & The Prick - Prayer in C", "groupPoint" : 4} ,
+								{"Clip" : "5tDjYuqJRJQ" , "Title" : "Come With Me Now - Kongos", "groupPoint" : 4}]}
+	],
+	"groupFinals": [
+		{"GroupName" : "Hun single final", "Opened" : "1" , "VoteDate" : "2014.12.10.", "VideoClips" : [
+								{"Clip" : "b2WhIoI27-A" , "Title" : "Sub Bass Monster - Ne sÃ­rj anyÃ¡m", "groupPoint" : 1} ,
+								{"Clip" : "ktF2Icz5Mb8" , "Title" : "Bogi - We All (Lotfi Begi remix)", "groupPoint" : 1},
+								{"Clip" : "OKzPeFmS8eg" , "Title" : "Kelemen KabÃ¡tban - Maradjatok Gyerekek", "groupPoint" : 2} ,
+								{"Clip" : "JELrLROCsSs" , "Title" : "Boggie - Un an a Paris", "groupPoint" : 3}]},
+		{"GroupName" : "Hun band final", "Opened" : "1" , "VoteDate" : "2014.12.11.", "VideoClips" : [
+								{"Clip" : "UrGS9EARHRc" , "Title" : "Punnany Massif - Ã‰lvezd", "groupPoint" : 2} ,
+								{"Clip" : "S0aXzh-r2y8" , "Title" : "Halott PÃ©nz - Hello lÃ¡nyok", "groupPoint" : 5}]},
+		{"GroupName" : "Alien single final", "Opened" : "1" , "VoteDate" : "2014.12.12.", "VideoClips" : [
+								{"Clip" : "0KSOMA3QBU0" , "Title" : "Katy Perry - Dark Horse", "groupPoint" : 2} ,
+								{"Clip" : "gCYcHz2k5x0" , "Title" : "Martin Garrix - Animals", "groupPoint" : 3},
+								{"Clip" : "EDQgU1CPpis" , "Title" : "Daniel Waples - Solo Hang Drum in a London Tunnel", "groupPoint" : 2}]},
+		{"GroupName" : "Alien band final", "Opened" : "1" , "VoteDate" : "2014.12.15.", "VideoClips" : [
+								{"Clip" : "MoE6SeSm268" , "Title" : "Faith no More - Easy", "groupPoint" : 1} ,
+								{"Clip" : "JrlfFTS9kGU" , "Title" : "Lilly Wood & The Prick - Prayer in C", "groupPoint" : 3} ,
+								{"Clip" : "5tDjYuqJRJQ" , "Title" : "Come With Me Now - Kongos", "groupPoint" : 2}]}
+	],
+	"conferenceFinals": [
+		{"GroupName" : "Hun single vs. band", "Opened" : "1" , "VoteDate" : "2014.12.16.", "VideoClips" : [
+								{"Clip" : "JELrLROCsSs" , "Title" : "Boggie - Un an a Paris", "groupPoint" : 1} ,
+								{"Clip" : "S0aXzh-r2y8" , "Title" : "Halott PÃ©nz - Hello lÃ¡nyok", "groupPoint" : 5}]},
+		{"GroupName" : "Alien single vs band", "Opened" : "1" , "VoteDate" : "2014.12.17.", "VideoClips" : [
+								{"Clip" : "gCYcHz2k5x0" , "Title" : "Martin Garrix - Animals", "groupPoint" : 2} ,
+								{"Clip" : "JrlfFTS9kGU" , "Title" : "Lilly Wood & The Prick - Prayer in C", "groupPoint" : 4}]}
+	],
+	"Final": [
+		{"GroupName" : "Universe Final", "Opened" : "1" , "VoteDate" : "2014.12.18.", "VideoClips" : [
+								{"Clip" : "S0aXzh-r2y8" , "Title" : "Halott Pénz - Hello lányok", "groupPoint" : 4} ,
+								{"Clip" : "JrlfFTS9kGU" , "Title" : "Lilly Wood & The Prick - Prayer in C", "groupPoint" : 3}]}
+	]
+}		
