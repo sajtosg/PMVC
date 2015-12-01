@@ -4,10 +4,6 @@ $(document).ready( function() {
 	
 $.getJSON('adatok/prenki.json', function( klippek ) {
 		klippekFeldolgozasa(klippek);
-	});
-
-$.getJSON('adatok/parallel.json', function( klippek ) {
-		_klippekFeldolgozasa(klippek);
 	});	
 	
 });
@@ -16,7 +12,7 @@ $.getJSON('adatok/parallel.json', function( klippek ) {
 //minden csoportot kÃ¼lÃ¶n megjelenitunk
 function klippekFeldolgozasa(klippek) {
 	//console.log(csapatok.csoportok[0].csapat3);
-	for ( i = 0; i< klippek.groupStage.length; i++ ) {
+	for ( i = 0; i< klippek.groupStage.length; i++) {
 		csoportKirajzolasa(klippek.groupStage[i] , groupStage);
 	}
 	for ( i = 0; i< klippek.groupSemiFinals.length; i++ ) {
@@ -25,30 +21,11 @@ function klippekFeldolgozasa(klippek) {
 	for ( i = 0; i< klippek.groupFinals.length; i++ ) {
 		csoportKirajzolasa(klippek.groupFinals[i], groupFinals);
 	}
-	for ( i = 0; i< klippek.conferenceFinals.length; i++ ) {
-		csoportKirajzolasa(klippek.conferenceFinals[i], conferenceFinals);
+	for ( i = 0; i< klippek.semiFinals.length; i++ ) {
+		csoportKirajzolasa(klippek.semiFinals[i], semiFinals);
 	}
 	for ( i = 0; i< klippek.Final.length; i++ ) {
 		csoportKirajzolasa(klippek.Final[i], Final);
-	}
-}
-
-function _klippekFeldolgozasa(klippek) {
-
-	for ( i = 0; i< klippek.groupStage.length; i++ ) {
-		csoportKirajzolasa(klippek.groupStage[i] , _groupStage);
-	}
-	for ( i = 0; i< klippek.groupSemiFinals.length; i++ ) {
-		csoportKirajzolasa(klippek.groupSemiFinals[i], _groupSemiFinals);
-	}
-	for ( i = 0; i< klippek.groupFinals.length; i++ ) {
-		csoportKirajzolasa(klippek.groupFinals[i], _groupFinals);
-	}
-	for ( i = 0; i< klippek.conferenceFinals.length; i++ ) {
-		csoportKirajzolasa(klippek.conferenceFinals[i], _conferenceFinals);
-	}
-	for ( i = 0; i< klippek.Final.length; i++ ) {
-		csoportKirajzolasa(klippek.Final[i], _Final);
 	}
 }
 
@@ -108,7 +85,7 @@ function csoportKirajzolasa( csoport, targetDiv ) {
 	//a tombben levo csapatok neveit kiirjuk:
 		
 
-	if (targetDiv.id == "groupSemiFinals"||targetDiv.id == "groupFinals"||targetDiv.id == "conferenceFinals"||targetDiv.id=="Final" || targetDiv.id == "_groupSemiFinals"||targetDiv.id == "_groupFinals"||targetDiv.id == "_conferenceFinals"||targetDiv.id=="_Final"){
+	if (targetDiv.id == "groupSemiFinals"||targetDiv.id == "groupFinals"||targetDiv.id == "semiFinals"||targetDiv.id=="Final" || targetDiv.id == "_groupSemiFinals"||targetDiv.id == "_groupFinals"||targetDiv.id == "_semiFinals"||targetDiv.id=="_Final"){
 		var belsoDiv = $( document.createElement('div') );
 		csoportDiv.append(belsoDiv);
 
@@ -132,7 +109,13 @@ function csoportKirajzolasa( csoport, targetDiv ) {
 				newCell2 = $( document.createElement("td") );
 				$(newCell2).addClass("right");
 				newRow.append(newCell2);
-				newCell2.html(myCsoport.csapatok[j].groupPoint + " p.");
+				
+				if (cimDiv.hasClass('todaycim')) {
+					newCell2.html("<button onclick=window.open('mailto:sajtos.gergo@telekom.hu?subject=PMVC3%20SZAVAZAT&body=" + myCsoport.csapatok[j].Title.split(' ').join('%20') +"')>szavazok</button>");
+				} else {
+					newCell2.html(myCsoport.csapatok[j].groupPoint + " p.");
+				}
+				
 				var csapat = $( document.createElement("A") );
 				$( csapat ).addClass("popup-youtube");
 				$( csapat ).attr("href", "https://www.youtube.com/watch?v="+myCsoport.csapatok[j].Clip+"?controls=0&rel=0");
@@ -215,7 +198,7 @@ function csoportKirajzolasa( csoport, targetDiv ) {
 						if ($( csoportDiv ).hasClass('youTubeHozzaadva')) {
 							console.log('youTube mÃ¡r Hozzaadva');
 						} else {
-							youTubeHozzaadasa(myCsoport, belsoDiv);
+							youTubeHozzaadasa(myCsoport, belsoDiv, csoport.Opened);
 							$( csoportDiv ).addClass('youTubeHozzaadva');
 						}
 						
@@ -258,7 +241,7 @@ function csoportKirajzolasa( csoport, targetDiv ) {
 						if ($( csoportDiv ).hasClass('youTubeHozzaadva')) {
 							console.log('youTube mÃ¡r Hozzaadva');
 						} else {
-							youTubeHozzaadasa(myCsoport, belsoDiv);
+							youTubeHozzaadasa(myCsoport, belsoDiv, csoport.Opened);
 							$( csoportDiv ).addClass('youTubeHozzaadva');
 						}
 						var rowHeight = 240;
@@ -274,8 +257,8 @@ function csoportKirajzolasa( csoport, targetDiv ) {
 				}			
 			});				
 		break;
-		case "conferenceFinals":
-		case "_conferenceFinals":
+		case "semiFinals":
+		case "_semiFinals":
 			$(cimDiv).height(204);
 			$(csoportDiv).height(202);
 			$( csoportDiv ).mouseleave(function() {
@@ -310,7 +293,7 @@ function csoportKirajzolasa( csoport, targetDiv ) {
 						if ($( csoportDiv ).hasClass('youTubeHozzaadva')) {
 							console.log('youTube mÃ¡r Hozzaadva');
 						} else {
-							youTubeHozzaadasa(myCsoport, belsoDiv);
+							youTubeHozzaadasa(myCsoport, belsoDiv, csoport.Opened);
 							$( csoportDiv ).addClass('youTubeHozzaadva');
 						}
 						var rowHeight = 440;
@@ -365,7 +348,7 @@ function csoportKirajzolasa( csoport, targetDiv ) {
 						if ($( csoportDiv ).hasClass('youTubeHozzaadva')) {
 							console.log('youTube mÃ¡r Hozzaadva');
 						} else {
-							youTubeHozzaadasa(myCsoport, belsoDiv);
+							youTubeHozzaadasa(myCsoport, belsoDiv, csoport.Opened);
 							$( csoportDiv ).addClass('youTubeHozzaadva');
 						}
 						var rowHeight = 240;
@@ -393,67 +376,37 @@ function fazisDivekZindexBeallitas() {
 	$(groupStage).mouseenter(function() {
 		$(groupStage).addClass("up");
 	});
-	$(_groupStage).mouseenter(function() {
-		$(_groupStage).addClass("up");
-	});
 	$(groupStage).mouseleave(function() {
 		$(groupStage).removeClass("up");
-	});
-	$(_groupStage).mouseleave(function() {
-		$(_groupStage).removeClass("up");
 	});
 	$(groupSemiFinals).mouseenter(function() {
 		$(groupSemiFinals).addClass("up");
 	});
-	$(_groupSemiFinals).mouseenter(function() {
-		$(_groupSemiFinals).addClass("up");
-	});	
 	$(groupSemiFinals).mouseleave(function() {
 		$(groupSemiFinals).removeClass("up");
-	});
-	$(_groupSemiFinals).mouseleave(function() {
-		$(_groupSemiFinals).removeClass("up");
 	});
 	$(groupFinals).mouseenter(function() {
 		$(groupFinals).addClass("up");
 	});
-	$(_groupFinals).mouseenter(function() {
-		$(_groupFinals).addClass("up");
-	});
 	$(groupFinals).mouseleave(function() {
 		$(groupFinals).removeClass("up");
 	});
-	$(_groupFinals).mouseleave(function() {
-		$(_groupFinals).removeClass("up");
+	$(semiFinals).mouseenter(function() {
+		$(semiFinals).addClass("up");
 	});
-	$(conferenceFinals).mouseenter(function() {
-		$(conferenceFinals).addClass("up");
-	});
-	$(_conferenceFinals).mouseenter(function() {
-		$(_conferenceFinals).addClass("up");
-	});
-	$(conferenceFinals).mouseleave(function() {
-		$(conferenceFinals).removeClass("up");
-	});	
-	$(_conferenceFinals).mouseleave(function() {
-		$(_conferenceFinals).removeClass("up");
+	$(semiFinals).mouseleave(function() {
+		$(semiFinals).removeClass("up");
 	});	
 	$(Final).mouseenter(function() {
 		$(Final).addClass("up");
 	});
-	$(_Final).mouseenter(function() {
-		$(_Final).addClass("up");
-	});
 	$(Final).mouseleave(function() {
 		$(Final).removeClass("up");
 	});
-	$(_Final).mouseleave(function() {
-		$(_Final).removeClass("up");
-	});	
 }
 
 
-function youTubeHozzaadasa(myCsoport, belsoDiv){
+function youTubeHozzaadasa(myCsoport, belsoDiv, Opened){
 			for (j = 0;j< myCsoport.csapatok.length; j++ ){
 				var innerDiv = $( document.createElement("div") );
 				innerDiv.addClass("ovrflv");
@@ -461,7 +414,17 @@ function youTubeHozzaadasa(myCsoport, belsoDiv){
 				var csapat = $( document.createElement("IFrame") );
 				var points = $( document.createElement("div") );
 				points.addClass("points");
-				$( points ).html("<center>" + myCsoport.csapatok[j].groupPoint + " p.</center>");
+				
+				if (Opened == 2) {
+					$( points ).html("<center><button onclick=window.open('mailto:sajtos.gergo@telekom.hu?subject=PMVC3_SZAVAZAT&body=body')>szavazok</button></center>");
+					
+					
+				} else {
+					$( points ).html("<center>" + myCsoport.csapatok[j].groupPoint + " p.</center>");
+				}
+				
+				//	$( points ).html("<center>" + myCsoport.csapatok[j].groupPoint + " p.</center>");
+				
 				if (myCsoport.nev == "Universe Final"){
 					$( csapat ).attr("width", "260px");
 					$( csapat ).attr("height", "160px");

@@ -8,9 +8,9 @@
 	width:1200px;
 	min-height: 800px;
 	margin: 0px auto;
-	background-image: url("../kepek/PMVC2.jpg");
+	background-image: url("../kepek/pmvc3.jpg");
 	overflow: auto;
-	font-family: 'Ubuntu', latin;
+	font-family: '', cursive;
 }
 
 #paralleluniverse{
@@ -19,12 +19,12 @@
 	margin: 0px auto;
 	background-image: url("../kepek/PMVC22.jpg");
 	overflow: auto;
-	font-family: 'Ubuntu', latin;
+	font-family: 'Give You Glory', cursive;
 }
 
 #fejlec {
 	height: 150px;
-	background-image: url('../kepek/fejlec.jpg');
+	background-image: url('../kepek/PMVC3_header.png');
 }
 
 #groupStage {
@@ -42,7 +42,7 @@
 	background-color: rgba(230, 200, 22, .2);
 }
 
-#conferenceFinals {
+#semiFinals {
 	width:200px;
 	background-color: rgba(240, 200, 44, .2);
 }
@@ -59,8 +59,8 @@
 }
 
 #fejlec {
-	height: 150px;
-	background-image: url('../kepek/fejlec.jpg');
+	height: 170px;
+	background-image: url('../kepek/PMVC3_header.png');
 }
 
 #_groupStage {
@@ -78,7 +78,7 @@
 	background-color: rgba(230, 200, 22, .2);
 }
 
-#_conferenceFinals {
+#_semiFinals {
 	width:200px;
 	background-color: rgba(240, 200, 44, .2);
 }

@@ -13,6 +13,6 @@ function Klipp( Clip, Title, groupPoint ) {
 	}
 
 	this.toString = function() {
-		return this.Clip + " (" + this.pont + "pont)";
+		return this.Clip + " (" + this.pont + "pont...)";
 	}
 }
