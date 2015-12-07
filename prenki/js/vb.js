@@ -115,11 +115,16 @@ function csoportKirajzolasa( csoport, targetDiv ) {
 				} else {
 					newCell2.html(myCsoport.csapatok[j].groupPoint + " p.");
 				}
-				
+				var yturl = "https://www.youtube.com/watch?v="  +myCsoport.csapatok[j].Clip;
 				var csapat = $( document.createElement("A") );
+				var csapat_yturl = $( document.createElement("A") );
 				$( csapat ).addClass("popup-youtube");
-				$( csapat ).attr("href", "https://www.youtube.com/watch?v="+myCsoport.csapatok[j].Clip+"?controls=0&rel=0");
-				$( csapat ).html(klippSzamlalo + ". " + myCsoport.csapatok[j].Title + "<img src=\"kepek/yt_play_icon.jpg\"><br />");
+				$( csapat ).attr("href", yturl+"?controls=0&rel=0");
+				$( csapat_yturl).attr("href", yturl);
+				$( csapat ).html(klippSzamlalo + ". " + myCsoport.csapatok[j].Title +" <br />");
+				$( csapat_yturl).html("<img src=\"kepek/YouTube_Icon.png\" width=30 height= 20>");
+
+				newCell.append(csapat_yturl);
 				newCell.append(csapat);
 				klippSzamlalo++;
 		};
@@ -146,7 +151,7 @@ function csoportKirajzolasa( csoport, targetDiv ) {
 				}, 350 );
 			});
  
-			$( csoportDiv ).click(function(){
+			$( cimDiv ).click(function(){
 				console.log('click');
 				if (csoport.Opened>0){
 					if ($( csoportDiv ).hasClass('expanded')) {

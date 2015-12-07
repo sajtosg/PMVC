@@ -24,7 +24,7 @@
 
 #fejlec {
 	height: 150px;
-	background-image: url('../kepek/PMVC3_header.png');
+	background-image: url('../kepek/pmvc_banner.png');
 }
 
 #groupStage {
@@ -60,7 +60,7 @@
 
 #fejlec {
 	height: 170px;
-	background-image: url('../kepek/PMVC3_header.png');
+	background-image: url('../kepek/pmvc_banner.png');
 }
 
 #_groupStage {
@@ -126,6 +126,7 @@
 	color: #ffffff;
 	text-align: center;
 	line-height: 20px;
+	background-image: url('../kepek/mustache.png');
 }
 
 .csoport .aktivcim {
