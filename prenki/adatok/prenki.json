@@ -1,103 +1,54 @@
 {
-	"groupStage": [
-		{"GroupName" : "Group A", "Opened" : "2" , "VoteDate" : "2015.12.01.", "VideoClips" : [
-								{"Clip" : "1jre6_FBBc0" , "Title" : "Kid Cudi - Pursuit of Happiness", "groupPoint" : 0} ,
-								{"Clip" : "401BJZfJh24" , "Title" : "Kaleida Think - John Wick Soundtrack", "groupPoint" : 0} ,
-								{"Clip" : "6WpYqRMyfUE" , "Title" : "Anastasia - Volt egy régi december", "groupPoint" : 0} ,
-								{"Clip" : "9a3oHeTM0Gw" , "Title" : "Lux Aeterna - Clint Mansell", "groupPoint" : 0}]},
-		{"GroupName" : "Group B", "Opened" : "1" , "VoteDate" : "2015.12.02.", "VideoClips" : [
-								{"Clip" : "9kP8IRXBymE" , "Title" : "Sister Act 2 - Ain't no mountain high enough", "groupPoint" : 0} ,
-								{"Clip" : "EjMNNpIksaI" , "Title" : "John Williams - Star Wars Theme Song", "groupPoint" : 0} ,
-								{"Clip" : "f8HtmFtGSQo" , "Title" : "Bad Boys Theme Song", "groupPoint" : 0} ,
-								{"Clip" : "FDoEEin39IU" , "Title" : "Carla Bruni - 500 days of summer", "groupPoint" : 0}]},
-		{"GroupName" : "Group C", "Opened" : "0" , "VoteDate" : "2015.12.03.", "VideoClips" : [
-								{"Clip" : "_nwxJVmVw8A" , "Title" : "Punnany Masiff - Hétköznapi Hősök", "groupPoint" : 10} ,
-								{"Clip" : "2reHDA1jG_s" , "Title" : "Anna and The Barbies & Kiss Tibi - Márti dala", "groupPoint" : 4} ,
-								{"Clip" : "3-QN7zHi7G4" , "Title" : "Irígy Hónaljmirigy - Majka Belehalok paródia", "groupPoint" : 2} ,
-								{"Clip" : "AF1lObCE_c8" , "Title" : "Ganxsta Zolee És a Kartel - A Jo a Rossz És a Kartel", "groupPoint" : 10} ,
-								{"Clip" : "ArTbyFQpQ_8" , "Title" : "Halott Pénz - Valami van a levegőben", "groupPoint" : 4}]},
-		{"GroupName" : "Group D", "Opened" : "0" , "VoteDate" : "2015.12.04.", "VideoClips" : [
-								{"Clip" : "byQ2f-4t-Hc" , "Title" : "Burzsoá Nyugdíjasok - Kálmán", "groupPoint" : 2} ,
-								{"Clip" : "DvN1N61XzBc" , "Title" : "Belga-Csoki klipp", "groupPoint" : 9} ,
-								{"Clip" : "qUZppD_Zd0s" , "Title" : "Open Stage - Aranka Szeretlek", "groupPoint" : 8} ,
-								{"Clip" : "FUxd4SFZYqU" , "Title" : "Mary PopKids feat. Punnany Massif - Mosoly", "groupPoint" : 9} ,
-								{"Clip" : "HUp0WTVi55Y" , "Title" : "WELLHELLO - RAKPART", "groupPoint" : 5}]},
-		{"GroupName" : "Group E", "Opened" : "0" , "VoteDate" : "2015.12.07.", "VideoClips" : [
-								{"Clip" : "bmXumtgwtak" , "Title" : "Eminem - Lose Yourself", "groupPoint" : 6} ,
-								{"Clip" : "1ByxuVIec7E" , "Title" : "Kid CuDi - REVOFEV", "groupPoint" : 1} ,
-								{"Clip" : "H7QJN3v9c2Y" , "Title" : "Iggy Azalea - Work Lyrics Video", "groupPoint" : 8} ,
-								{"Clip" : "h-OTYT02W7E" , "Title" : "Foxes performs 'Don't Stop Me Now' on board the Orient Express", "groupPoint" : 9} ,
-								{"Clip" : "J91ti_MpdHA" , "Title" : "Alicia Keys - Girl on Fire", "groupPoint" : 9}]},
-		{"GroupName" : "Group F", "Opened" : "0" , "VoteDate" : "2015.12.08.", "VideoClips" : [
-								{"Clip" : "j5-yKhDd64s" , "Title" : "Eminem - Not Afraid", "groupPoint" : 5} ,
-								{"Clip" : "D3HwnYbU_1A" , "Title" : "Tutto L'Amore Che Ho - Video Ufficiale", "groupPoint" : 5} ,
-								{"Clip" : "D-NvQ6VJYtE" , "Title" : "Jamiroquai - Cosmic Girl", "groupPoint" : 12} ,
-								{"Clip" : "ZHVJVQzHv5Q" , "Title" : "Faithless: Insomnia", "groupPoint" : 8} ,
-								{"Clip" : "wmin5WkOuPw" , "Title" : "The Prodigy - Firestarter", "groupPoint" : 3}]},
-		{"GroupName" : "Group G", "Opened" : "0" , "VoteDate" : "2015.12.09.", "VideoClips" : [
-								{"Clip" : "45VrMIz0hcQ" , "Title" : "Wonderland - Rolling In The Deep", "groupPoint" : 14} ,
-								{"Clip" : "4B_UYYPb-Gk" , "Title" : "RUN-DMC - Walk This Way", "groupPoint" : 8} ,
-								{"Clip" : "D8lV1To-_fU" , "Title" : "Amaranthe - Amaranthine", "groupPoint" : 2} ,
-								{"Clip" : "Dn1xzFqT0BI" , "Title" : "Dil Na Liya - Krrish - * blu-ray * - Hrithik Roshan - Priyanka Chopra", "groupPoint" : 3} ,
-								{"Clip" : "fdHCec23BKE" , "Title" : "Pink -Try", "groupPoint" : 6}]},
-		{"GroupName" : "Group H", "Opened" : "0" , "VoteDate" : "2015.12.10.", "VideoClips" : [
-								{"Clip" : "jofNR_WkoCE" , "Title" : "Ylvis - The Fox (What Does The Fox Say?)", "groupPoint" : 11} ,
-								{"Clip" : "kcZMCMI24gs" , "Title" : "Oliver Heldens X Becky Hill - Gecko", "groupPoint" : 1} ,
-								{"Clip" : "PHdU5sHigYQ" , "Title" : "Dave Brubeck - Take Five", "groupPoint" : 5} ,
-								{"Clip" : "QIaVPHRU1kE" , "Title" : "Voca People - Queen Tribute", "groupPoint" : 2} ,
-								{"Clip" : "1yw1Tgj9-VU" , "Title" : "Linkin Park - In The End", "groupPoint" : 4} ,
-								{"Clip" : "v2AC41dglnM" , "Title" : "AC/DC - Thunderstruck", "groupPoint" : 7}]}
-	],
 	"groupSemiFinals": [
-		{"GroupName" : "A1 vs B2", "Opened" : "0" , "VoteDate" : "2015.12.11.", "VideoClips" : [
-								{"Clip" : "I67Lj8EK92s" , "Title" : "Charlie - Az legy aki vagy", "groupPoint" : 4} ,
-								{"Clip" : "2klQ8fGXAnA" , "Title" : "Sub Bass Monster - Négy ütem", "groupPoint" : 6}]},
-		{"GroupName" : "B1 vs A2", "Opened" : "0" , "VoteDate" : "2015.12.11.", "VideoClips" : [
-								{"Clip" : "S5lpxLIhOXk" , "Title" : "Copy Con - Nyugi", "groupPoint" : 7} ,
-								{"Clip" : "m8hLO0_QFck" , "Title" : "Ruzsa Magdi - May it be", "groupPoint" : 3}]},
-		{"GroupName" : "C1 vs D2", "Opened" : "0" , "VoteDate" : "2015.12.12.", "VideoClips" : [
-								{"Clip" : "_nwxJVmVw8A" , "Title" : "Punnany Masiff - Hétköznapi Hősök", "groupPoint" : 7} ,
-								{"Clip" : "DvN1N61XzBc" , "Title" : "Belga-Csoki klipp", "groupPoint" : 4}]},
-		{"GroupName" : "D1 vs C2", "Opened" : "0" , "VoteDate" : "2015.12.12.", "VideoClips" : [
-								{"Clip" : "FUxd4SFZYqU" , "Title" : "Mary PopKids feat. Punnany Massif - Mosoly", "groupPoint" : 4} ,
-								{"Clip" : "AF1lObCE_c8" , "Title" : "Ganxsta Zolee És a Kartel - A Jo a Rossz És a Kartel", "groupPoint" : 7}]},
-		{"GroupName" : "E1 vs F2", "Opened" : "0" , "VoteDate" : "2015.12.14.", "VideoClips" : [
-								{"Clip" : "h-OTYT02W7E" , "Title" : "Foxes performs 'Don't Stop Me Now' on board the Orient Express", "groupPoint" : 6} ,
-								{"Clip" : "ZHVJVQzHv5Q" , "Title" : "Faithless: Insomnia", "groupPoint" : 4}]},
-		{"GroupName" : "F1 vs E2", "Opened" : "0" , "VoteDate" : "2015.12.14.", "VideoClips" : [
-								{"Clip" : "D-NvQ6VJYtE" , "Title" : "Jamiroquai - Cosmic Girl", "groupPoint" : 3} ,
-								{"Clip" : "J91ti_MpdHA" , "Title" : "Alicia Keys - Girl on Fire", "groupPoint" : 7}]},
-		{"GroupName" : "G1 vs H2", "Opened" : "0" , "VoteDate" : "2015.12.15.", "VideoClips" : [
-								{"Clip" : "45VrMIz0hcQ" , "Title" : "Wonderland - Rolling In The Deep", "groupPoint" : 7} ,
-								{"Clip" : "v2AC41dglnM" , "Title" : "AC/DC - Thunderstruck", "groupPoint" : 4}]},
-		{"GroupName" : "H1 vs G2", "Opened" : "0" , "VoteDate" : "2015.12.15.", "VideoClips" : [
-								{"Clip" : "jofNR_WkoCE" , "Title" : "Ylvis - The Fox (What Does The Fox Say?)", "groupPoint" : 7} ,
-								{"Clip" : "4B_UYYPb-Gk" , "Title" : "RUN-DMC - Walk This Way", "groupPoint" : 4}]}
+		{"GroupName" : "A1 vs A2", "Opened" : "2" , "VoteDate" : "2016.12.07.", "VideoClips" : [
+								{"Clip" : "2tmc8rJgxUI" , "Title" : "GNR - Knockin On Heavens Door", "groupPoint" : 0} ,
+								{"Clip" : "BS0T8Cd4UhA" , "Title" : "Let It Go - Behind The Mic Multi-Language Version (from Frozen) ", "groupPoint" : 0}]},
+		{"GroupName" : "B1 vs B2", "Opened" : "0" , "VoteDate" : "2016.12.08.", "VideoClips" : [
+								{"Clip" : "iwpdfqid154" , "Title" : "VOICE GUITAR - Femme Like You (Female version)", "groupPoint" : 0} ,
+								{"Clip" : "u9Dg-g7t2l4" , "Title" : "Disturbed - The Sound Of Silence", "groupPoint" : 0}]},
+		{"GroupName" : "C1 vs C2", "Opened" : "0" , "VoteDate" : "2016.12.09.", "VideoClips" : [
+								{"Clip" : "uJ4diEohODE" , "Title" : "Happy - Pentatonix (Pharrell Cover)", "groupPoint" : 0} ,
+								{"Clip" : "XimIbnMbeRE" , "Title" : "KoRn - Word Up", "groupPoint" : 0}]},
+		{"GroupName" : "D1 vs D2", "Opened" : "0" , "VoteDate" : "2016.12.12.", "VideoClips" : [
+								{"Clip" : "xnI4E3IURvk" , "Title" : "The Beatles - Twist and Shout HQ", "groupPoint" : 0} ,
+								{"Clip" : "Hurra Torpedo - Total Eclipse Of The Heart (live)" , "Title" : "", "groupPoint" : 0}]},
+		{"GroupName" : "E1 vs E2", "Opened" : "2" , "VoteDate" : "2016.12.07.", "VideoClips" : [
+								{"Clip" : "-9InnG48e4I" , "Title" : "pizzafutár reszkessetek betörők", "groupPoint" : 0} ,
+								{"Clip" : "3M2lSX0nRlc" , "Title" : "Ja, csak ne spórold ki a pisztáciát", "groupPoint" : 0}]},
+		{"GroupName" : "F1 vs F2", "Opened" : "0" , "VoteDate" : "2016.12.08.", "VideoClips" : [
+								{"Clip" : "aBHEKD2KG9k" , "Title" : "Kinyírlak", "groupPoint" : 0} ,
+								{"Clip" : "EfwgN-EIvmE" , "Title" : "Trópusi vihar - Legjobb jelenet (részlet)", "groupPoint" : 0}]},
+		{"GroupName" : "G1 vs G2", "Opened" : "0" , "VoteDate" : "2016.12.09.", "VideoClips" : [
+								{"Clip" : "I0qT4hk1I9k" , "Title" : "Ízirájder öcsém", "groupPoint" : 0} ,
+								{"Clip" : "RMqsOvdymhc" , "Title" : "Trópusi vihar Les Grossman", "groupPoint" : 0}]},
+		{"GroupName" : "H1 vs H2", "Opened" : "0" , "VoteDate" : "2016.12.12.", "VideoClips" : [
+								{"Clip" : "RsU1-OKfZC8" , "Title" : "Ne fütyülj!", "groupPoint" : 0} ,
+								{"Clip" : "XQHi9Pd2nLI" , "Title" : "RAT racer 2000", "groupPoint" : 0}]}
 	],
 	"groupFinals": [
-		{"GroupName" : "Quarter final 1.", "Opened" : "0" , "VoteDate" : "2015.12.16.", "VideoClips" : [
+		{"GroupName" : "Quarter final 1.", "Opened" : "0" , "VoteDate" : "2016.12.13.", "VideoClips" : [
 								{"Clip" : "2klQ8fGXAnA" , "Title" : "Sub Bass Monster - Négy ütem", "groupPoint" : 4} ,
 								{"Clip" : "S5lpxLIhOXk" , "Title" : "Copy Con - Nyugi", "groupPoint" : 7}]},
-		{"GroupName" : "Quarter final 2.", "Opened" : "0" , "VoteDate" : "2015.12.16.", "VideoClips" : [
+		{"GroupName" : "Quarter final 2.", "Opened" : "0" , "VoteDate" : "2016.12.14.", "VideoClips" : [
 								{"Clip" : "_nwxJVmVw8A" , "Title" : "Punnany Masiff - Hétköznapi Hősök", "groupPoint" : 6} ,
 								{"Clip" : "AF1lObCE_c8" , "Title" : "Ganxsta Zolee És a Kartel - A Jo a Rossz És a Kartel", "groupPoint" : 4}]},
-		{"GroupName" : "Quarter final 3.", "Opened" : "0" , "VoteDate" : "2015.12.17.", "VideoClips" : [
+		{"GroupName" : "Quarter final 3.", "Opened" : "0" , "VoteDate" : "2016.12.15.", "VideoClips" : [
 								{"Clip" : "h-OTYT02W7E" , "Title" : "Foxes performs 'Don't Stop Me Now' on board the Orient Express", "groupPoint" : 6} ,
 								{"Clip" : "J91ti_MpdHA" , "Title" : "Alicia Keys - Girl on Fire", "groupPoint" : 4}]},
-		{"GroupName" : "Quarter final 4.", "Opened" : "0" , "VoteDate" : "2015.12.17.", "VideoClips" : [
+		{"GroupName" : "Quarter final 4.", "Opened" : "0" , "VoteDate" : "2016.12.16.", "VideoClips" : [
 								{"Clip" : "45VrMIz0hcQ" , "Title" : "Wonderland - Rolling In The Deep", "groupPoint" : 6} ,
 								{"Clip" : "jofNR_WkoCE" , "Title" : "Ylvis - The Fox (What Does The Fox Say?)", "groupPoint" : 3}]}
 	],
 	"semiFinals": [
-		{"GroupName" : "SemiFinal 1.", "Opened" : "0" , "VoteDate" : "2015.12.18.", "VideoClips" : [
+		{"GroupName" : "SemiFinal 1.", "Opened" : "0" , "VoteDate" : "2016.12.19.", "VideoClips" : [
 								{"Clip" : "S5lpxLIhOXk" , "Title" : "Copy Con - Nyugi", "groupPoint" : 3} ,
 								{"Clip" : "_nwxJVmVw8A" , "Title" : "Punnany Masiff - Hétköznapi Hősök", "groupPoint" : 7}]},
-		{"GroupName" : "SemiFinal 2.", "Opened" : "0" , "VoteDate" : "2015.12.18.", "VideoClips" : [
+		{"GroupName" : "SemiFinal 2.", "Opened" : "0" , "VoteDate" : "2016.12.20.", "VideoClips" : [
 								{"Clip" : "h-OTYT02W7E" , "Title" : "Foxes performs 'Don't Stop Me Now' on board the Orient Express", "groupPoint" : 3} ,
 								{"Clip" : "45VrMIz0hcQ" , "Title" : "Wonderland - Rolling In The Deep", "groupPoint" : 6}]}
 	],
 	"Final": [
-		{"GroupName" : "Final", "Opened" : "0" , "VoteDate" : "2015.12.20.", "VideoClips" : [
+		{"GroupName" : "Final", "Opened" : "0" , "VoteDate" : "2016.12.21.", "VideoClips" : [
 								{"Clip" : "_nwxJVmVw8A" , "Title" : "Punnany Masiff - Hétköznapi Hősök", "groupPoint" : 2} ,
 								{"Clip" : "45VrMIz0hcQ" , "Title" : "Wonderland - Rolling In The Deep", "groupPoint" : 8}]}
 	]

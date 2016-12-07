@@ -5,10 +5,10 @@
 }
 
 #universe {
-	width:1200px;
-	min-height: 800px;
+	width:1020px;
+	min-height: 850px;
 	margin: 0px auto;
-	background-image: url("../kepek/pmvc3.jpg");
+	background-image: url("../kepek/1d.jpg");
 	overflow: auto;
 	font-family: '', cursive;
 }
@@ -23,8 +23,9 @@
 }
 
 #fejlec {
-	height: 150px;
-	background-image: url('../kepek/pmvc_banner.png');
+	height: 200px;
+	background-image: url('../kepek/pmvc4_banner.png');
+	overflow: nowrap;
 }
 
 #groupStage {
@@ -59,8 +60,10 @@
 }
 
 #fejlec {
-	height: 170px;
-	background-image: url('../kepek/pmvc_banner.png');
+	height: 205px;
+	background-image: url('../kepek/pmvc4_banner.png');
+	background-repeat: no-repeat;
+  background-position: center; 
 }
 
 #_groupStage {
@@ -126,7 +129,7 @@
 	color: #ffffff;
 	text-align: center;
 	line-height: 20px;
-	background-image: url('../kepek/mustache.png');
+	
 }
 
 .csoport .aktivcim {

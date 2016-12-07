@@ -12,9 +12,7 @@ $.getJSON('adatok/prenki.json', function( klippek ) {
 //minden csoportot kÃ¼lÃ¶n megjelenitunk
 function klippekFeldolgozasa(klippek) {
 	//console.log(csapatok.csoportok[0].csapat3);
-	for ( i = 0; i< klippek.groupStage.length; i++) {
-		csoportKirajzolasa(klippek.groupStage[i] , groupStage);
-	}
+
 	for ( i = 0; i< klippek.groupSemiFinals.length; i++ ) {
 		csoportKirajzolasa(klippek.groupSemiFinals[i], groupSemiFinals);
 	}
@@ -378,12 +376,6 @@ function csoportKirajzolasa( csoport, targetDiv ) {
 }
  
 function fazisDivekZindexBeallitas() {
-	$(groupStage).mouseenter(function() {
-		$(groupStage).addClass("up");
-	});
-	$(groupStage).mouseleave(function() {
-		$(groupStage).removeClass("up");
-	});
 	$(groupSemiFinals).mouseenter(function() {
 		$(groupSemiFinals).addClass("up");
 	});
